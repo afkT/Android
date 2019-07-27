@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 搜索结果 - 搜索不到结果 -->
+    <LinearLayout
+        android:id="@+id/isl_search_nodata_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/isl_search_hint_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:gravity="center"
+            android:paddingTop="35.0dip"
+            android:textColor="@android:color/black"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <!-- 加载中 -->
+    <LinearLayout
+        android:id="@+id/isl_load_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.tt.whorlviewlibrary.WhorlView
+            android:id="@+id/isl_load_view"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            app:whorlview_circle_colors="#F14336_#ffffff_#5677fc_#F44336_#4CAF50"
+            app:whorlview_circle_speed="270"
+            app:whorlview_parallax="medium"
+            app:whorlview_strokeWidth="8"
+            app:whorlview_sweepAngle="90" />
+    </LinearLayout>
+
+    <!-- 查询结束 -->
+    <LinearLayout
+        android:id="@+id/isl_query_end_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/isl_notfound_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="180.0dp"
+                android:layout_height="180.0dp"
+                android:background="@drawable/icon_nofound" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center"
+                android:text="@string/notfound"
+                android:textColor="@android:color/black"
+                android:textSize="15.0sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

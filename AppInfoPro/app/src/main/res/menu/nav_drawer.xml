@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user_apps"
+            android:icon="@drawable/ic_user_app"
+            android:title="@string/user_apps" />
+        <item
+            android:id="@+id/nav_system_apps"
+            android:icon="@drawable/ic_system_app"
+            android:title="@string/system_apps" />
+        <item
+            android:id="@+id/nav_phone_info"
+            android:icon="@drawable/ic_phone_info"
+            android:title="@string/phone_info" />
+
+        <item
+            android:id="@+id/nav_screen_info"
+            android:icon="@drawable/ic_screen_info"
+            android:title="@string/screen_info" />
+
+        <item
+            android:id="@+id/nav_query_apk"
+            android:icon="@drawable/ic_query_apk"
+            android:title="@string/query_apk" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_action_setting"
+                    android:title="@string/setting" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

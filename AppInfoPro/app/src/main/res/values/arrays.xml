@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="appSortArys">
+        <item>App name</item>
+        <item>File size</item>
+        <item>Install time</item>
+        <item>Update time</item>
+    </string-array>
+
+</resources>

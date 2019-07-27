@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="appSortArys">
+        <item>应用名称</item>
+        <item>文件大小</item>
+        <item>安装时间</item>
+        <item>更新时间</item>
+    </string-array>
+
+</resources>

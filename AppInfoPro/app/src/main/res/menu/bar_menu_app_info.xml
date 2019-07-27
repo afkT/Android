@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bmai_share"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/bmai_export_app"
+        android:title="@string/export_app" />
+
+    <item
+        android:id="@+id/bmai_export_app_msg"
+        android:title="@string/export_app_msg" />
+
+</menu>
