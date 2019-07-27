@@ -16,7 +16,7 @@
 - [ScanActivity.java](https://github.com/afkT/Android/blob/master/ScanView/app/src/main/java/ttt/scan/ScanActivity.java)
 
 ```java
-/**
+    /**
      * 刷新类型处理
      */
     private void refShape(){
