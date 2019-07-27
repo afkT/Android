@@ -35,7 +35,7 @@ Android 点击推送逻辑处理，以及页面跳转判断等
 
 - [BaseActivity](https://github.com/afkT/Android/blob/master/PushHandlerPro/app/src/main/java/com/push/handler/BaseActivity.java) => onResume 方法
 
-- [PushHanderActivity](https://github.com/afkT/Android/blob/master/PushHandlerPro/app/src/main/java/com/push/handler/PushHanderActivity.java)
+- [PushHanderActivity](https://github.com/afkT/Android/blob/master/PushHandlerPro/app/src/main/java/com/push/handler/receiver/push/PushHanderActivity.java)
 
 
 ### 实现思路
