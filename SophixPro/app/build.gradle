@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 26
+
+    defaultConfig {
+        applicationId "sophix.pro"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+
+        debug {
+            storeFile file('../demo.jks')
+            storePassword "123456"
+            keyAlias "demo"
+            keyPassword "123456"
+        }
+
+        release {
+            storeFile file('../demo.jks')
+            storePassword "123456"
+            keyAlias "demo"
+            keyPassword "123456"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    // 分包
+    compile 'com.android.support:multidex:1.0.1'
+    // 阿里移动热修复
+    compile 'com.aliyun.ams:alicloud-android-hotfix:3.2.3'
+    // gson
+    compile 'com.google.code.gson:gson:2.8.2'
+}
