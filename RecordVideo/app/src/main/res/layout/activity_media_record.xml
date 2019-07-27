@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.record.video.widget.MediaRecorderView
+        android:id="@+id/amr_recordview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/amr_reverse_igview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_margin="@dimen/x60"
+        android:src="@drawable/camera_reverse_selector"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/amr_back_igview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="@dimen/x173"
+        android:layout_marginLeft="@dimen/x113"
+        android:src="@drawable/photograph_return" />
+
+    <ImageView
+        android:id="@+id/amr_camera_igview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/x110"
+        android:src="@drawable/photograph" />
+
+    <!-- 长按进度条 -->
+
+    <com.record.video.widget.RecordProgressBar
+        android:id="@+id/amr_record_pbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/x80"
+        android:visibility="gone" />
+
+    <!-- 对焦缩放 -->
+
+    <ImageView
+        android:id="@+id/amr_focus_igview"
+        android:layout_width="@dimen/x150"
+        android:layout_height="@dimen/x150"
+        android:src="@drawable/chat_focusing"
+        android:visibility="gone" />
+
+</FrameLayout>
