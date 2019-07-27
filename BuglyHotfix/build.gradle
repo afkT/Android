@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+
+        // 下面代码有个注意事项，否则会出现这个异常
+        // Error:Cause: generateTinkerApk: Android Application plugin required
+
+        // 意思主要是说 需要 Tinker 插件
+        // 正常bugly 只有 classpath "com.tencent.bugly:tinker-support:1.0.8" 这一句
+        // 需要先单独 加载 tinker 插件 然后同步一下, 接着再加载 tinkersupport 插件
+        // 并且 app 主module的 build.gradle 暂时不能引用 tinker-support.gradle, 必须先加载好两个插件，按顺序后才能form
+
+        // 先加载 tinker 插件
+//        classpath ('com.tencent.tinker:tinker-patch-gradle-plugin:1.9.1');
+
+        // tinkersupport插件, 其中lastest.release指拉取最新版本，也可以指定明确版本号，例如1.1.2
+        classpath "com.tencent.bugly:tinker-support:latest.release"
+
+        // 文档是1.0.8, 升级到1.1.2 解决
+        // Error:Could not get unknown property 'apkVariantData' for object of type com.android.build.gradle.internal.api.ApplicationVariantImpl.
+
+        // 使用最新的插件, 可以不需要引用 tinker 插件, 内部自动引用
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
