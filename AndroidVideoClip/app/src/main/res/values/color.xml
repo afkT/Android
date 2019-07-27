@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 常见颜色 -->
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="black_alpha">#66000000</color>
+    <color name="black_alpha_00">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_alpha">#CCFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="transparent">#a0000000</color>
+    <color name="sky_blue">#0080FF</color>
+    <color name="blue">#0000FF</color>
+
+</resources>
