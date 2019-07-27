@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/ic_back_yellow" android:state_pressed="true"/>
+    <item android:drawable="@mipmap/ic_back_yellow" android:state_checked="true"/>
+    <item android:drawable="@mipmap/ic_back_yellow" android:state_selected="true"/>
+    <item android:drawable="@mipmap/ic_back_white" android:state_checked="false"/>
+    <item android:drawable="@mipmap/ic_back_white"/>
+
+</selector>

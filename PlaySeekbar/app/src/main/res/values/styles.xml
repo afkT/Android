@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- android:theme="Theme.Light.NoTitleBar" 白色背景并无标题栏 -->
+    <!-- android:theme="Theme.Translucent.NoTitleBar"  透明背景并无标题 -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar"></style>
+
+    <!-- 系统默认样式 -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+</resources>
