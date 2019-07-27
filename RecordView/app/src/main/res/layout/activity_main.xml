@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <SurfaceView
+        android:id="@+id/am_surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/am_content_linear"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <LinearLayout
+        android:id="@+id/am_content_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/am_operate_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25.0dip"
+        android:layout_marginTop="40.0dip"
+        android:orientation="vertical">
+
+        <com.pro.record.widgets.RecordTimeView
+            android:id="@+id/am_rtview"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dip" />
+
+        <TextView
+            android:id="@+id/am_time_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="21.0sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/am_operate_btn"
+        android:layout_width="70.0dp"
+        android:layout_height="70.0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@mipmap/ic_play" />
+
+</RelativeLayout>
