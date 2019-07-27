@@ -4,16 +4,16 @@
 
 # 预览
 
-<img src="https://github.com/afkT/ScanView/blob/master/mdFile/1.gif" width="250px"> <img src="https://github.com/afkT/ScanView/blob/master/mdFile/2.gif" width="250px"> <img src="https://github.com/afkT/ScanView/blob/master/mdFile/3.gif" width="250px">
+<img src="https://raw.githubusercontent.com/afkT/Android/master/ScanView/mdFile/1.gif" width="250px"> <img src="https://raw.githubusercontent.com/afkT/Android/master/ScanView/mdFile/2.gif" width="250px"> <img src="https://raw.githubusercontent.com/afkT/Android/master/ScanView/mdFile/3.gif" width="250px">
 
 
 ## 具体实现 View
 
-- [ScanShapeView.java](https://github.com/afkT/ScanView/blob/master/app/src/main/java/ttt/scan/widgets/ScanShapeView.java)
+- [ScanShapeView.java](https://github.com/afkT/Android/blob/master/ScanView/app/src/main/java/ttt/scan/widgets/ScanShapeView.java)
 
 ## 使用
 
-- [ScanActivity.java](https://github.com/afkT/ScanView/blob/master/app/src/main/java/ttt/scan/ScanActivity.java)
+- [ScanActivity.java](https://github.com/afkT/Android/blob/master/ScanView/app/src/main/java/ttt/scan/ScanActivity.java)
 
 ```java
 /**
