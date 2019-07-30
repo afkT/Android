@@ -7,16 +7,16 @@ Android 热修复 - Bugly
 
 ```
 dependencies {
-    compile "com.android.support:multidex:1.0.1" // 多dex配置
+    compile "com.android.support:multidex:1.0.1" // 多 dex 配置
     
-    // 注释掉原有bugly的仓库
-    // 其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.3.2
+    // 注释掉原有 bugly 的仓库
+    // 其中 latest.release 指代最新版本号，也可以指定明确的版本号，例如2.3.2
     // compile 'com.tencent.bugly:crashreport:latest.release'
     
     // https://blog.csdn.net/y505772146/article/details/78966676
     compile 'com.tencent.bugly:crashreport_upgrade:1.3.4' 
     
-    // 其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
+    // 其中 latest.release 指代最新版本号，也可以指定明确的版本号，例如2.2.0
     compile 'com.tencent.bugly:nativecrashreport:latest.release' 
 }
 ```
@@ -47,12 +47,12 @@ dependencies {
 ```
 
 
-* 具体配置方法在 tinker-support.gradle 中
+- 具体配置方法在 tinker-support.gradle 中
 
-* [https://bugly.qq.com/docs/user-guide/instruction-manual-android-hotfix-demo/?v=20180521124306](https://bugly.qq.com/docs/user-guide/instruction-manual-android-hotfix-demo/?v=20180521124306)
+- [https://bugly.qq.com/docs/user-guide/instruction-manual-android-hotfix-demo/?v=20180521124306](https://bugly.qq.com/docs/user-guide/instruction-manual-android-hotfix-demo/?v=20180521124306)
 
-* 每次先生成基准包 在 :app -> Tasks -> build -> assembleRelease 构建后，复制最新的地址替换 baseApkDir
+- 每次先生成基准包 在 :app -> Tasks -> build -> assembleRelease 构建后，复制最新的地址替换 baseApkDir
 
-* 接着进行修复bug，修复好了后，更改 tinkerId
+- 接着进行修复bug，修复好了后，更改 tinkerId
 
-* 并且进行 :app -> Tasks -> tinker-support -> buildTinkerPatchRelease 生成补丁包
+- 并且进行 :app -> Tasks -> tinker-support -> buildTinkerPatchRelease 生成补丁包
