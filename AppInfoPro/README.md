@@ -19,4 +19,5 @@ Android - 获取手机安装的应用信息（用户应用、系统应用）、�
 | ![img](https://raw.githubusercontent.com/afkT/Android/master/AppInfoPro/mdFile/img7.png) | ![img](https://raw.githubusercontent.com/afkT/Android/master/AppInfoPro/mdFile/img8.png) | ![img](https://raw.githubusercontent.com/afkT/Android/master/AppInfoPro/mdFile/img9.png) |
 |:-|:-|:-|
 
-| ![img](https://raw.githubusercontent.com/afkT/Android/master/AppInfoPro/mdFile/img10.png)
+| ![img](https://raw.githubusercontent.com/afkT/Android/master/AppInfoPro/mdFile/img10.png) |  |  |
+|:-|:-|:-|
