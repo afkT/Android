@@ -9,11 +9,16 @@ Android 点击推送逻辑处理、页面跳转判断
 >// 该项目主要实现此需求:
 >
 >// 收到推送, 点击推送消息处理
+>
 >// 1. 如果 应用已经打开, 这直接做处理, 如跳转页面, 打开链接等功能
+>
 >// 2. 如果 应用没有开启, 则默认先开启应用 (如果存在引导页面, 则显示引导页面), 然后进入首页后, 再做对应的处理(跳转页面, 打开链接等)
 >
+>
 >// 同微信一样
+>
 >// 如果微信没有打开(后台被销毁), 有人发送消息过来, 点击通知栏, 则默认是打开微信, 显示欢迎页, 接着进入对应的群聊、或者私聊页面, 返回键则返回到消息列表页面
+>
 >// 如果微信已打开, 则不会再次启动微信, 直接进入对应的页面
 >
 >
@@ -65,7 +70,9 @@ Android 点击推送逻辑处理、页面跳转判断
 >
 >// 2.PushHanderActivity.setPushHandler 实现IPushHandler接口, 并且进行编写逻辑判断
 >
->// 3.在整个项目 Activity基类 的onResume方法中, 调用 PushHanderActivity.checkPush(activity, value); // 正常 PushHanderActivity.checkPush(this, this.getClass().getSimpleName());
+>// 3.在整个项目 Activity 基类的 onResume 方法中, 调用 PushHanderActivity.checkPush(activity, value);
+>
+>// 正常 PushHanderActivity.checkPush(this, this.getClass().getSimpleName());
 >
 >
 >
