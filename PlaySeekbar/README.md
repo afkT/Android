@@ -25,7 +25,7 @@
 
 ### 使用方法：
 
-> 跑 Demo 前需要找个视频, 并且在 MainActivity 设置本地视频地址
+> 运行 Demo 前需要找个视频, 并且在 MainActivity 设置本地视频地址
 
 ```java
 public void initValues(){
