@@ -1,22 +1,23 @@
-# RecordView
+# [RecordView](https://github.com/afkT/Android/tree/master/RecordView)
 
-Android - 录制进步式 View
+录制进步式 View
+
 
 ### 功能需求与预览
 
-> 项目有个直播功能，需要显示进度条类似录制进度 View 具体如下
-> 
-> 1.可以控制顶部时间间隔，以及是否绘制，是否预留位置
->  
-> 2.能够重头开始，从指定时间开始、恢复、暂停、停止等
-> 
-> <img src="https://raw.githubusercontent.com/afkT/Android/master/RecordView/mdFile/img1.gif">
+- 项目有个直播功能，需要显示进度条类似录制进度 View 具体如下
 
-### 具体实现与使用
+1.可以控制顶部时间间隔，以及是否绘制，是否预留位置
+
+2.能够重头开始，从指定时间开始、恢复、暂停、停止等
+
+![gif](https://raw.githubusercontent.com/afkT/Android/master/RecordView/mdFile/img1.gif)
+
+### 具体实现类
 
 - [RecordTimeView.java](https://github.com/afkT/Android/blob/master/RecordView/app/src/main/java/com/pro/record/widgets/RecordTimeView.java)
 
-> 使用方法：
+### 使用方法
 
 ```java
 /** 时间进度View */
