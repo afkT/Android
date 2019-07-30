@@ -10,13 +10,13 @@ dependencies {
     compile "com.android.support:multidex:1.0.1" // 多 dex 配置
     
     // 注释掉原有 bugly 的仓库
-    // 其中 latest.release 指代最新版本号，也可以指定明确的版本号，例如2.3.2
+    // 其中 latest.release 指代最新版本号，也可以指定明确的版本号，例如 2.3.2
     // compile 'com.tencent.bugly:crashreport:latest.release'
     
     // https://blog.csdn.net/y505772146/article/details/78966676
     compile 'com.tencent.bugly:crashreport_upgrade:1.3.4' 
     
-    // 其中 latest.release 指代最新版本号，也可以指定明确的版本号，例如2.2.0
+    // 其中 latest.release 指代最新版本号，也可以指定明确的版本号，例如 2.2.0
     compile 'com.tencent.bugly:nativecrashreport:latest.release' 
 }
 ```
