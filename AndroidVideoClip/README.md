@@ -1,14 +1,16 @@
-# AndroidVideoClip
+# [AndroidVideoClip](https://github.com/afkT/Android/tree/master/AndroidVideoClip)
 
- Android 视频裁剪 - (含裁剪 View)
+Android 视频裁剪 (含裁剪 View)
+
 
 ### 具体代码
 
-- <a href="https://github.com/afkT/Java/tree/master/VideoClip">VideoClip</a>
+- [VideoClip](https://github.com/afkT/Java/tree/master/VideoClip)
 
-- <a href="https://github.com/afkT/Android/tree/master/PlaySeekbar">PlaySeekbar</a>
+- [PlaySeekbar](https://github.com/afkT/Android/tree/master/PlaySeekbar)
 
-### 使用方法：
+
+### 使用方法
 
 ```java
 // -- am_video_seekbar.getStartTime() 获取的是自定义 View 选择的开始裁剪时间
@@ -94,12 +96,12 @@ public void initListener(){
 }
 ```
 
-代码中，点击裁剪后，只是禁止按钮点击没有显示加载Dialog，自己根据项目需求搬运过去，以及计算关键帧的方法需要放在后台线程内进行计算，防止卡顿
+代码中点击裁剪后，只是禁止按钮点击没有显示加载 Dialog，自己根据项目需求搬运过去，以及计算关键帧的方法需要放在后台线程内进行计算，防止卡顿
 
 ```java
-// =========================================
-// 计算关键帧可能会卡顿一下,最好是在后台运行
-// =========================================
+// ==========================================
+// 计算关键帧可能会卡顿一下, 最好是在后台运行
+// ==========================================
 
 // 获取视频关键帧间隔 - 如果获取失败, 则默认最少需要裁剪 3 秒长度的视频
 float videoFrame = (float) TrimVideoUtils.getInstance().reckonFrameTime(new File(videoUrl), 3000);
