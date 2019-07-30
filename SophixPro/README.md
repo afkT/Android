@@ -1,4 +1,4 @@
-# SophixPro
+# [SophixPro](https://github.com/afkT/Android/tree/master/SophixPro)
 
 Android - 热修复 Sophix
 
@@ -17,9 +17,7 @@ allprojects {
         }
     }
 }
-```
 
-```
 dependencies {
     // 分包
     compile 'com.android.support:multidex:1.0.1'
@@ -30,17 +28,17 @@ dependencies {
 
 快速集成：
 
-<a href="https://help.aliyun.com/document_detail/53240.html?spm=a2c4g.11186623.6.548.e9324122p42FZ8" target="_blank">快速集成</a>
+- [快速集成](https://help.aliyun.com/document_detail/53240.html?spm=a2c4g.11186623.6.548.e9324122p42FZ8)
 
 ### 方案对比
 
-<img src="https://raw.githubusercontent.com/afkT/Android/master/SophixPro/mdFile/img1.png"/>
+![img](https://raw.githubusercontent.com/afkT/Android/master/SophixPro/mdFile/img1.png)
 
 
 ### 注意事项
 
-> * 每次热修复, 是和发布的版本对比，而不是已经第xx次后的修复对比
+- 每次热修复, 是和发布的版本对比，而不是已经第xx次后的修复对比
 
-> * 可以比作是, 每次都当做新的补丁
+- 可以比作是, 每次都当做新的补丁
 
-> * 所以每次提交，都需要存在之前修复bug的代码
+- 所以每次提交，都需要存在之前修复bug的代码
