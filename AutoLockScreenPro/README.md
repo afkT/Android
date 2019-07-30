@@ -1,8 +1,13 @@
-# AutoLockScreenPro
-AutoLockScreenPro - 推送自动锁屏功能
+# [AutoLockScreenPro](https://github.com/afkT/Android/tree/master/AutoLockScreenPro)
+
+AutoLockScreenPro - 推送自动锁屏
 
 
 # 实现工具类
+
+- [LockScreenUtils](https://github.com/afkT/Android/blob/master/AutoLockScreenPro/app/src/main/java/lock/screen/pro/utils/LockScreenUtils.java)
+
+
 ```java
 package lock.screen.pro.utils;
 
