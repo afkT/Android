@@ -28,7 +28,7 @@ dependencies {
 
 ### 快速集成
 
-- [快速集成](https://help.aliyun.com/document_detail/53240.html?spm=a2c4g.11186623.6.548.e9324122p42FZ8)
+- [快速集成](https://help.aliyun.com/document_detail/61082.html?spm=a2c4g.11186623.6.560.7fe65c56uYoJfS)
 
 ### 方案对比
 
