@@ -14,13 +14,13 @@ Android 录制视频 View (拍照 + 视频) 支持前、后置，录制拉近以
 
 ### 具体实现类
 
-* [MediaRecorderView](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/widget/MediaRecorderView.java)，主要是显示Camera预览画面，以及录制代码、拍照代码，包括横竖屏、屏幕翻转等逻辑代码
+- [MediaRecorderView](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/widget/MediaRecorderView.java) 主要是显示 Camera 预览画面，以及录制代码、拍照代码，包括横竖屏、屏幕翻转等逻辑代码
 
-* [MediaDealUtils](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/utils/MediaDealUtils.java)，是对录制视频后缩略图生成、缩放处理
+- [MediaDealUtils](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/utils/MediaDealUtils.java) 是对录制视频后缩略图生成、缩放处理
 
-* [CameraUtils](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/utils/CameraUtils.java)，摄像头资源操作
+- [CameraUtils](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/utils/CameraUtils.java) 摄像头资源操作
 
-* [MediaRecordActivity](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/activitys/MediaRecordActivity.java) 录制、拍照页面，[MediaResultPreActivity](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/activitys/MediaResultPreActivity.java) 录制、拍照结果预览页面
+- [MediaRecordActivity](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/activitys/MediaRecordActivity.java) 录制、拍照页面，[MediaResultPreActivity](https://github.com/afkT/Android/blob/master/RecordVideo/app/src/main/java/com/record/video/activitys/MediaResultPreActivity.java) 录制、拍照结果预览页面
 
 ### 注意实现
 
@@ -28,7 +28,7 @@ Android 录制视频 View (拍照 + 视频) 支持前、后置，录制拉近以
 
 ```java
 /**
- * 设置配置大小(不同比例控制不同)
+ * 设置配置大小 (不同比例控制不同)
  * @param params
  */
 private void setConfigSize(Camera.Parameters params){
