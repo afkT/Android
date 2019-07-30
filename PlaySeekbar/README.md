@@ -1,31 +1,29 @@
-# PlaySeekbar
-Android 视频裁剪自定义 View - 裁减播放的视频（本地视频）
+# [PlaySeekbar](https://github.com/afkT/Android/tree/master/PlaySeekbar)
+
+视频裁剪自定义 View
 
 
 ### 功能需求与预览
 
 > 有个视频裁剪功能，需要自定义 View 具体如下
-> 
-> 1. 裁剪选择区域模块，可以自定义最少裁剪时间
->  
-> 2. 当选择低于最少裁剪时间时，再次滑动会自动推动左右选择轴，直至碰到边缘为止
->  
-> 3. 选择空白区域，并左右滑动时自动推动选择轴的位置
-> 
-> 4. 可选控制(是否裁剪模式，是否显示播放进度，裁剪模式下(未选中的背景增加阴影图层)，播放过的背景增加阴影图层等)
->  
-> <img src="https://raw.githubusercontent.com/afkT/Android/master/PlaySeekbar/mdFile/img1.gif">
+
+1. 裁剪选择区域模块，可以自定义最少裁剪时间
+
+2. 当选择低于最少裁剪时间时，再次滑动会自动推动左右选择轴，直至碰到边缘为止
+
+3. 选择空白区域，并左右滑动时自动推动选择轴的位置
+
+4. 可选控制(是否裁剪模式，是否显示播放进度，裁剪模式下(未选中的背景增加阴影图层)，播放过的背景增加阴影图层等)
+
+![gif](https://raw.githubusercontent.com/afkT/Android/master/PlaySeekbar/mdFile/img1.gif)
 
 
 ### 具体实现与使用
 
 - [VideoSeekBar.java](https://github.com/afkT/Android/blob/master/PlaySeekbar/app/src/main/java/com/play/pro/widgets/VideoSeekBar.java)
-> 
-> 使用方法：
 
-<img src="https://raw.githubusercontent.com/afkT/Android/master/PlaySeekbar/mdFile/img2.png">
 
-### 注意事项
+### 使用方法：
 
 > 跑demo前，自己需要找个视频, 并且在 MainActivity 设置本地视频地址
 
