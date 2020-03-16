@@ -18,6 +18,5 @@
    - PushHandlerPro          | Android 点击推送逻辑处理、页面跳转判断
    - RecordVideo             | 录制视频 View (拍照 + 视频)
    - RecordView              | 录制进步式 View
-   - ScanView                | 扫描 (二维码/AR) 效果自定义 View
    - SophixPro               | Android - 热修复 Sophix
 ```
