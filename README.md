@@ -9,9 +9,7 @@
 ```
 - Android                    | 根目录
    - 360RePlugin             | Android 插件化开发 - 360 RePlugin 框架
-   - AndroidScreenMatch      | Android 屏幕适配生成对应的尺寸文件
    - AndroidVideoClip        | Android 视频裁剪 (含裁剪 View)
-   - AppInfoPro              | AppInfoPro (APP 信息提取器)
    - AutoLockScreenPro       | AutoLockScreenPro - 推送自动锁屏
    - BuglyHotfix             | Android 热修复 - Bugly
    - PlaySeekbar             | 视频裁剪自定义 View
