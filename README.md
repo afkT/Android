@@ -13,7 +13,6 @@
    - AutoLockScreenPro       | AutoLockScreenPro - 推送自动锁屏
    - BuglyHotfix             | Android 热修复 - Bugly
    - PlaySeekbar             | 视频裁剪自定义 View
-   - PushHandlerPro          | Android 点击推送逻辑处理、页面跳转判断
    - RecordVideo             | 录制视频 View (拍照 + 视频)
    - RecordView              | 录制进步式 View
    - SophixPro               | Android - 热修复 Sophix
