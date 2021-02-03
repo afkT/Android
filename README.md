@@ -10,7 +10,6 @@
 - Android                    | 根目录
    - 360RePlugin             | Android 插件化开发 - 360 RePlugin 框架
    - AndroidVideoClip        | Android 视频裁剪 (含裁剪 View)
-   - AutoLockScreenPro       | AutoLockScreenPro - 推送自动锁屏
    - BuglyHotfix             | Android 热修复 - Bugly
    - PlaySeekbar             | 视频裁剪自定义 View
    - RecordVideo             | 录制视频 View (拍照 + 视频)
