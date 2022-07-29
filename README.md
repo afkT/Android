@@ -8,7 +8,9 @@
 </p>
 
 <p align="center">
-🍖 这是一个 Android 相关联功能实现代码合集，主要存储自定义 View 效果、部分功能 ( 实现逻辑、思路 )、Demo 等功能代码。
+🍖 这是一个 Android 相关联功能实现代码合集，
+<br>
+主要存储自定义 View 效果、部分功能 ( 实现逻辑、思路 )、Demo 等功能代码。
 </p>
 
 <p align="center">
